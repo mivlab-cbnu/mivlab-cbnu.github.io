@@ -2,6 +2,7 @@
 name: Colin Campbell
 image: /images/team/colin-campbell.jpg
 role: member
+country: "nz"
 description: Visiting Researcher
 links:
   github: crc9954
