@@ -1,8 +1,8 @@
 # site properties and page defaults
 title: mivlab
-subtitle: Machine Intelligence and Vision Laboratory @CBNU
-socialtitle:  Machine Intelligence and Vision Laboratory @CBNU
-description: An engaging 1-3 sentence description of your lab.
+subtitle: Machine Intelligence and Vision Laboratory @ CBNU
+socialtitle:  MIVLab
+description: Machine Intelligence and Vision Laboratory 
 header: images/background.jpg
 footer: images/banner.jpg
 logo: images/logo.png
