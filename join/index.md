@@ -7,13 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-handshake-angle" %}Join the Team
 
-### Postdoctoral Research Fellows
+<!-- ### Postdoctoral Research Fellows
 
 We are looking for computational postdoctoral candiates interested in gene regulations, cancer genomics, AI for cancer, open source tools and method development for multi-omics analysis and integration. If you're interested please send your CV with a cover email explaining your interests and fit. Find more details and how to apply [here](https://docs.google.com/document/d/16_op3iX0gYRdqId14b8ziTGJwpbBJde8fpQUJd6aHT0/edit?usp=sharing)
 
 ### Research Staff in Bioinformatics and Cancer Genomics
 
-We are seeking a highly motivated bioinformatics research staff at all to support open and reproduciable research in gene regulation, cancer genomics, and multi-omics data analysis and integration at bulk and single-cell resolution. This role is ideal for those interested in advancing their computational biology skills while contributing to collaborative and impactful biomedical research. Find more details and how to apply [here](https://docs.google.com/document/d/1R_q1A76D3GlItaH5wswgxtGWt0wPgTTl-Es6C4tLkWA/edit?usp=sharing).
+We are seeking a highly motivated bioinformatics research staff at all to support open and reproduciable research in gene regulation, cancer genomics, and multi-omics data analysis and integration at bulk and single-cell resolution. This role is ideal for those interested in advancing their computational biology skills while contributing to collaborative and impactful biomedical research. Find more details and how to apply [here](https://docs.google.com/document/d/1R_q1A76D3GlItaH5wswgxtGWt0wPgTTl-Es6C4tLkWA/edit?usp=sharing). -->
 
 ### Graduate Students: MS and PhD
 
@@ -27,6 +27,6 @@ If you are already a Masters or a PhD student in one of the above programs and a
 
 If you are an undergraduate student and would like to spend a summer doing research at MBZUAI, visit the MBZUAI Undergraduate Research Internship Program (UGRIP) [website](https://mbzuai.ac.ae/ugrip/).
 
-### Faculty Positions
+<!-- ### Faculty Positions
 
-Faculty positions across our School of Digital Public Health including the Department of Computational Biology are listed on the [careers section of the MBZUAI website](https://careers.mbzuai.ac.ae/).
+Faculty positions across our School of Digital Public Health including the Department of Computational Biology are listed on the [careers section of the MBZUAI website](https://careers.mbzuai.ac.ae/). -->
