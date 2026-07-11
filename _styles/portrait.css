@@ -2,6 +2,24 @@
   display: contents;
 }
 
+.member-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+}
+
+.member-links .button-wrapper {
+  width: auto;
+  margin: 0;
+  justify-content: center;
+}
+
+.member-links .button {
+  padding: 0.55rem 0.7rem;
+  font-size: 1.2rem;
+}
+
 .portrait {
   position: relative;
   display: inline-flex;
