@@ -4,6 +4,7 @@ utility functions for cite process and plugins
 
 import subprocess
 import json
+import re
 import yaml
 from yaml.loader import SafeLoader
 from pathlib import Path
@@ -93,19 +94,65 @@ def list_of_dicts(data):
     return isinstance(data, list) and all(isinstance(entry, dict) for entry in data)
 
 
+def normalize_image_name(text):
+    return re.sub(r"[^A-Za-z0-9]+", "_", str(text or "")).strip("_").lower()
+
+
+def find_source_image(source):
+    """
+    Find a local image file for a source if one exists.
+    """
+
+    if not isinstance(source, dict):
+        return None
+
+    image = get_safe(source, "image", "")
+    if image:
+        path = Path(image)
+        if path.is_file():
+            return image
+
+    candidates = []
+    source_id = get_safe(source, "id", "")
+    source_title = get_safe(source, "title", "")
+    if source_id:
+        candidates.append(source_id)
+    if source_title:
+        candidates.append(source_title)
+
+    search_dirs = [Path("images/publications"), Path("images")]
+    extensions = ["jpg", "jpeg", "png", "svg", "webp"]
+
+    for candidate in candidates:
+        base = normalize_image_name(candidate)
+        for directory in search_dirs:
+            for ext in extensions:
+                path = directory / f"{base}.{ext}"
+                if path.is_file():
+                    return str(path).replace("\\", "/")
+
+    return None
+
+
 def format_date(_date):
     """
-    format date as YYYY-MM-DD, or no date if malformed
+    format date as YYYY-MM-DD or preserve year/month-only dates when possible.
     """
 
     if isinstance(_date, int):
         return datetime.fromtimestamp(_date // 1000.0).strftime("%Y-%m-%d")
     if isinstance(_date, (date, datetime)):
         return _date.strftime("%Y-%m-%d")
+    if isinstance(_date, str):
+        _date = _date.strip()
+        if len(_date) == 4 and _date.isdigit():
+            return f"{_date}-01-01"
+        if len(_date) == 7 and _date[:4].isdigit() and _date[4] == "-" and _date[5:].isdigit():
+            return f"{_date}-01"
     try:
         return datetime.strptime(_date, "%Y-%m-%d").strftime("%Y-%m-%d")
     except Exception:
-        return ""
+        return _date if _date else ""
 
 
 def load_data(path):

@@ -21,6 +21,29 @@ warnings = []
 output_file = "_data/citations.yaml"
 
 
+def is_citable_id(_id):
+    if not isinstance(_id, str):
+        return False
+    _id = _id.strip().lower()
+    if ":" not in _id:
+        return False
+    scheme = _id.split(":", 1)[0]
+    return scheme in {
+        "doi",
+        "pmid",
+        "pmc",
+        "pmcid",
+        "arxiv",
+        "patent",
+        "isbn",
+        "handle",
+        "url",
+        "github",
+        "orcid",
+        "twitter",
+    }
+
+
 log()
 
 log("Compiling sources")
@@ -135,8 +158,7 @@ for index, source in enumerate(sources):
     # source id
     _id = get_safe(source, "id", "").strip()
 
-    # Manubot doesn't work without an id
-    if _id:
+    if is_citable_id(_id):
         log("Using Manubot to generate citation", indent=1)
 
         try:
@@ -162,6 +184,12 @@ for index, source in enumerate(sources):
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
+
+    # preserve or discover a local image asset for this citation
+    if not get_safe(citation, "image", ""):
+        image = find_source_image(citation)
+        if image:
+            citation["image"] = image
 
     # ensure date in proper format for correct date sorting
     if get_safe(citation, "date", ""):

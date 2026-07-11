@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: mivlab
+title: MIVLab
 subtitle: MIVLab
 socialtitle:  MIVLab
 description: Machine Intelligence and Vision Laboratory 
@@ -80,5 +80,5 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-  - tools/index.md
+  # - tools/index.md 
   - join/index.md

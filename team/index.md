@@ -1,5 +1,5 @@
 ---
-title: About us
+title: People
 nav:
   order: 1
   # tooltip: Meet our team
@@ -7,14 +7,25 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Meet Our Team
 
+<!-- 
 We are building a dedicated team of responsible researchers to advance the frontier of computational biology and genomics.
-We are hiring at [all levels](/join/). Please send your CV with a cover email explaining your interest and fit.
+We are hiring at [all levels](/join/). Please send your CV with a cover email explaining your interest and fit. 
+-->
 
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 
+
 {% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and alumni != true" %}
+
+### Undergraduate Intern
+
+- Seoyeon Kim 
+- Seunghyun Im 
+- Sihyun Kim 
+- Minwoo Yoon 
+- Seonyo Lee 
 
 <!-- 
 {% include section.html background="images/banner.jpg" dark=true %}
@@ -28,10 +39,15 @@ We are hiring at [all levels](/join/). Please send your CV with a cover email ex
   link="join"
   style="button"
 %} -->
-{% include section.html %}
-
-## Our Alumni
-
-{% include list.html data="members" component="portrait-alumni" filter="alumni == true" style="small" %}
 
 {% include section.html %}
+
+## Alumni
+
+#### Undergraduate Intern
+
+- Dohee Kwon (25.3-26.2)
+- Yohan Jang (25.9-26.2)
+
+
+<!-- {% include section.html %} -->

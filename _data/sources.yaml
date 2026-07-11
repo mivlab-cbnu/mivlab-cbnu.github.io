@@ -1,29 +1,249 @@
-
+# Example:
 # - id: doi:10.1093/bioinformatics/btx804
 #   image: images/publications/bioinformatics_cover.jpeg
-#   buttons:
-#     - type: source
-#       text: Source Code
-#       link: https://github.com/asntech/intervene
-#   tags:
-#     - open-source
-#     - software
 
+- id: doi:10.1109/TIP.2025.3570220
+  tags:
+  - International journal
 
-# - id: doi:10.1093/bioinformatics/btx804
-#   image: images/publications/bioinformatics_cover.jpeg
-#   buttons:
-#     - type: source
-#       text: Source Code
-#       link: https://github.com/asntech/intervene
-#   tags:
-#     - open-source
-#     - software
+- id: doi:10.1109/TBME.2022.3214269
+  tags:
+  - International journal
 
-# some paper returned by an ORCID with a wrong title
-# - id: doi:123/456
-#   title: Correct Title
+- id: doi:10.1109/JBHI.2021.3103614
+  tags:
+  - International journal
 
-# some paper returned by an ORCID that you don't want to keep at all
-# - id: pubmed:123456
-  # remove: true
+- id: doi:10.1117/12.2597094
+  tags:
+  - International conference
+
+- id: doi:10.23919/APSIPA.2018.8659743
+  tags:
+  - International conference
+
+- id: doi:10.1117/12.2597094
+  title: Unsupervised Domain Adaptation for Segmentation with Black-box Source Model
+  authors:
+  - Xiaofeng Liu
+  - Chaehwa Yoo
+  - Fangxu Xing
+  - C.-C. Jay Kuo
+  - Georges El Fakhri
+  - Je-Won Kang
+  - Jonghye Woo
+  publisher: SPIE Medical Imaging
+  date: '2022-02'
+  tags:
+  - International conference
+
+- title: Relevance Regularization of Convolutional Neural Network for Interpretable Classification
+  authors:
+  - Chaehwa Yoo
+  - Nayoung Kim
+  - Je-Won Kang
+  publisher: IEEE Computer Vision and Pattern Recognition Workshop (CVPRW)
+  date: '2019-06'
+  tags:
+  - International conference
+
+- title: Training Compression Artifacts Reduction Network with Domain Adaptation
+  authors:
+  - Yu-Jin Ham
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Applications of Digital Image Processing XLIV, International Society for Optics and Photonics
+  date: '2021-08'
+  tags:
+  - International conference
+
+- id: doi:10.1021/acssensors.4c03602
+  title: Mobile Sleep Stage Analysis Using Multichannel Wearable Devices Integrated with Stretchable Transparent Electrodes
+  authors:
+  - Hyun-Kyung Um
+  - Eunseo Noh
+  - Chaehwa Yoo
+  - Hyang Woon Lee
+  - Je-Won Kang
+  - Byoung Hoon Lee
+  - Jung-Rok Lee
+  publisher: ACS Sensors
+  tags: 
+  - International journal
+
+- title: "Deep Unsupervised Domain Adaptation: A Survey of Recent Methods and Applications"
+  authors:
+  - Xiaofeng Liu
+  - Chaehwa Yoo
+  - Fangxu Xing
+  - Hyejin Oh
+  - Georges El Fakhri
+  - Je-Won Kang
+  - Jonghye Woo
+  publisher: APSIPA Transactions on Signal and Information Processing
+  date: '2022-05-01'
+  tags:
+  - International journal
+
+- title: Unsupervised Black-box Model Domain Adaptation for Brain Tumor Segmentation
+  authors:
+  - Xiaofeng Liu
+  - Chaehwa Yoo
+  - Fangxu Xing
+  - C.-C. Jay Kuo
+  - Georges El Fakhri
+  - Je-Won Kang
+  - Jonghye Woo
+  publisher: Frontiers in Neuroscience
+  date: '2022-06'
+  tags:
+  - International journal
+
+- id: patent:KR102157441
+  title: Learning Method for Neural Network using Relevance Propagation and Service Providing Apparatus
+  publisher: Korean Intellectual Property Office
+  date: '2020'
+  status: "Granted"
+  tags:
+  - patents
+
+- id: patent:KR102298699
+  title: Method and Apparatus for Denoising Sleep Signal using Signal Block
+  publisher: Korean Intellectual Property Office
+  date: '2021'
+  status: "Granted"
+  tags:
+  - patents
+
+- id: patent:US11516478
+  title: Method and Apparatus of Coding Machine Vision Data using Prediction
+  publisher: United States Patent and Trademark Office
+  date: '2022'
+  status: "Granted (US); Filed (KR)"
+  tags:
+  - patents
+
+- id: patent:KR102617046
+  title: Sleep Stage Prediction Method Using Deep Learning Model and Analysis Apparatus
+  publisher: Korean Intellectual Property Office
+  date: '2023'
+  status: "Granted"
+  tags:
+  - patents
+
+- id: patent:US18029022
+  title: Method and Apparatus for Coding Feature Map based on Deep Learning in Multitasking System for Machine Vision
+  publisher: United States Patent and Trademark Office
+  date: '2021'
+  status: "Filed"
+  tags:
+  - patents
+
+- id: patent:US12561846
+  title: Method and Apparatus for Coding Machine Vision Data using Feature Map Reduction
+  publisher: United States Patent and Trademark Office
+  date: '2022'
+  status: "Granted (US); Filed (KR)"
+  tags:
+  - patents
+
+- id: patent:KR102023008473
+  title: Generation of Pseudo Label using Information from Multi-Source Domains in Black-Box Domain Adaptation
+  publisher: Korean Intellectual Property Office
+  date: '2023'
+  status: "Filed"
+  tags:
+  - patents
+
+- id: patent:KR1020250190895
+  title: Method and Apparatus for Motion Recognition using Single-Channel Biosignal
+  publisher: Korean Intellectual Property Office
+  date: '2025'
+  status: "Filed"
+  tags:
+  - patents
+
+- title: Road Object Detection in Data-limited Environments using Vision Foundation Models
+  authors:
+  - Seoyeon Kim
+  - Chaehwa Yoo
+  publisher: Summer Annual Conference of IEIE
+  date: '2026-06'
+  tags:
+  - domestic paper
+
+- title: Domain Adaptation of a Sleep Staging Network through Structured Knowledge Transfer
+  authors:
+  - Chaehwa Yoo
+  publisher: Broadcast and Media Magazine
+  date: '2023-07'
+  tags:
+  - domestic paper
+
+- title: Multi-Source Black-Box Domain Adaptation in Unsupervised Learning
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Summer Annual Conference of the Korean Institute of Broadcast and Media Engineers (KIBME)
+  date: '2023-06'
+  tags:
+  - domestic paper
+
+- title: Co-knowledge Transfer Learning for Multi-source Black-box Domain Adaptation
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: 35th Workshop on Image Processing and Image Understanding (IPIU)
+  date: '2023-02'
+  tags:
+  - domestic paper
+
+- title: Multi-source Black-box Domain Adaptation through Entropy-based Pseudo Label Generation
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: 34th IPIU
+  date: '2022-02'
+  tags:
+  - domestic paper
+
+- title: Source-free Unsupervised Domain Adaptation for COVID-19 Lesion Segmentation Network
+  authors:
+  - Chaehwa Yoo
+  - Sumin Kim
+  - Yeonui Kim
+  - Taehee Park
+  - Jiyoung Lee
+  - Je-Won Kang
+  publisher: Autumn Annual Conference of IEIE
+  date: '2021-11'
+  tags:
+  - domestic paper
+
+- title: Training Compression Artifacts Reduction Network with Domain Adaptation
+  authors:
+  - Yu-Jin Ham
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Korean Signal Processing Conference (KSPC)
+  date: '2021-09'
+  tags:
+  - domestic paper
+
+- title: Sleep Signal De-noising Network on Mobile Environments
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Korean Signal Processing Conference (KSPC)
+  date: '2020-08'
+  tags:
+  - domestic paper
+
+- title: Training Method for Noise-Robust Sleep Staging Network
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Summer Annual Conference of IEIE
+  date: '2020-08'
+  tags:
+  - domestic paper

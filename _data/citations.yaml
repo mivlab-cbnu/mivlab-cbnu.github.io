@@ -13,8 +13,10 @@
   date: '2025-01-01'
   link: https://doi.org/hb6btz
   orcid: 0000-0001-9880-2850
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  tags:
+  - International journal
 - id: doi:10.1109/TBME.2022.3214269
   title: Noise-Robust Sleep Staging via Adversarial Training With an Auxiliary Model
   authors:
@@ -28,8 +30,10 @@
   date: '2023-04-01'
   link: https://doi.org/hb6bt2
   orcid: 0000-0001-9880-2850
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  tags:
+  - International journal
 - id: doi:10.1109/JBHI.2021.3103614
   title: Transferring Structured Knowledge in Unsupervised Domain Adaptation of a
     Sleep Staging Network
@@ -41,17 +45,35 @@
   date: '2022-03-01'
   link: https://doi.org/grd4t6
   orcid: 0000-0001-9880-2850
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  tags:
+  - International journal
 - id: doi:10.1117/12.2597094
-  title: Training compression artifacts reduction network with domain adaptation
+  title: Unsupervised Domain Adaptation for Segmentation with Black-box Source Model
   authors:
-  - Yujin Ham
+  - Xiaofeng Liu
   - Chaehwa Yoo
-  - Jewon Kang
-  publisher: Applications of Digital Image Processing XLIV
-  date: '2021-08-01'
+  - Fangxu Xing
+  - C.-C. Jay Kuo
+  - Georges El Fakhri
+  - Je-Won Kang
+  - Jonghye Woo
+  publisher: SPIE Medical Imaging
+  date: '2022-02-01'
   link: https://doi.org/gr62vr
+  orcid: 0000-0001-9880-2850
+  plugin: sources.py
+  file: sources.yaml
+  tags:
+  - International conference
+- id: eid:2-s2.0-85113850818
+  title: Relevance regularization of convolutional neural network for interpretable
+    classification
+  publisher: IEEE Computer Society Conference on Computer Vision and Pattern Recognition
+    Workshops
+  date: '2022-06-02'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85113850818&partnerID=MN8TOARS
   orcid: 0000-0001-9880-2850
   plugin: orcid.py
   file: orcid.yaml
@@ -68,5 +90,275 @@
   date: '2018-11-01'
   link: https://doi.org/hb6bt4
   orcid: 0000-0001-9880-2850
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  tags:
+  - International conference
+- title: Relevance Regularization of Convolutional Neural Network for Interpretable
+    Classification
+  authors:
+  - Chaehwa Yoo
+  - Nayoung Kim
+  - Je-Won Kang
+  publisher: IEEE Computer Vision and Pattern Recognition Workshop (CVPRW)
+  date: '2019-06-01'
+  tags:
+  - International conference
+  plugin: sources.py
+  file: sources.yaml
+- title: Training Compression Artifacts Reduction Network with Domain Adaptation
+  authors:
+  - Yu-Jin Ham
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Applications of Digital Image Processing XLIV, International Society
+    for Optics and Photonics
+  date: '2021-08-01'
+  tags:
+  - International conference
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1021/acssensors.4c03602
+  title: Mobile Sleep Stage Analysis Using Multichannel Wearable Devices Integrated
+    with Stretchable Transparent Electrodes
+  authors:
+  - Hyun-Kyung Um
+  - Eunseo Noh
+  - Chaehwa Yoo
+  - Hyang Woon Lee
+  - Je-Won Kang
+  - Byoung Hoon Lee
+  - Jung-Rok Lee
+  publisher: ACS Sensors
+  date: '2025-05-15'
+  link: https://doi.org/hbsf47
+  tags:
+  - International journal
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Deep Unsupervised Domain Adaptation: A Survey of Recent Methods and Applications'
+  authors:
+  - Xiaofeng Liu
+  - Chaehwa Yoo
+  - Fangxu Xing
+  - Hyejin Oh
+  - Georges El Fakhri
+  - Je-Won Kang
+  - Jonghye Woo
+  publisher: APSIPA Transactions on Signal and Information Processing
+  date: '2022-05-01'
+  tags:
+  - International journal
+  plugin: sources.py
+  file: sources.yaml
+- title: Unsupervised Black-box Model Domain Adaptation for Brain Tumor Segmentation
+  authors:
+  - Xiaofeng Liu
+  - Chaehwa Yoo
+  - Fangxu Xing
+  - C.-C. Jay Kuo
+  - Georges El Fakhri
+  - Je-Won Kang
+  - Jonghye Woo
+  publisher: Frontiers in Neuroscience
+  date: '2022-06-01'
+  tags:
+  - International journal
+  plugin: sources.py
+  file: sources.yaml
+- id: patent:KR102157441
+  title: Learning Method for Neural Network using Relevance Propagation and Service
+    Providing Apparatus
+  authors: []
+  publisher: Korean Intellectual Property Office
+  date: '2020-01-01'
+  link: https://patents.google.com/patent/KR102157441/en
+  status: Granted
+  tags:
+  - patents
+  plugin: sources.py
+  file: sources.yaml
+- id: patent:KR102298699
+  title: Method and Apparatus for Denoising Sleep Signal using Signal Block
+  authors: []
+  publisher: Korean Intellectual Property Office
+  date: '2021-01-01'
+  link: https://patents.google.com/patent/KR102298699/en
+  status: Granted
+  tags:
+  - patents
+  plugin: sources.py
+  file: sources.yaml
+- id: patent:US11516478
+  title: Method and Apparatus of Coding Machine Vision Data using Prediction
+  authors:
+  - Je Won Kang
+  - Chae Hwa Yoo
+  - Seung Wook Park
+  publisher: United States Patent and Trademark Office
+  date: '2022-01-01'
+  link: https://patents.google.com/patent/US11516478/en
+  status: Granted (US); Filed (KR)
+  tags:
+  - patents
+  plugin: sources.py
+  file: sources.yaml
+- id: patent:KR102617046
+  title: Sleep Stage Prediction Method Using Deep Learning Model and Analysis Apparatus
+  authors: []
+  publisher: Korean Intellectual Property Office
+  date: '2023-01-01'
+  link: https://patents.google.com/patent/KR102617046/en
+  status: Granted
+  tags:
+  - patents
+  plugin: sources.py
+  file: sources.yaml
+- id: patent:US18029022
+  title: Method and Apparatus for Coding Feature Map based on Deep Learning in Multitasking
+    System for Machine Vision
+  authors: []
+  publisher: United States Patent and Trademark Office
+  date: '2021-01-01'
+  link: https://www.google.com/patents/US18029022
+  status: Filed
+  tags:
+  - patents
+  plugin: sources.py
+  file: sources.yaml
+- id: patent:US12561846
+  title: Method and Apparatus for Coding Machine Vision Data using Feature Map Reduction
+  authors:
+  - Je Won Kang
+  - Chae Hwa Yoo
+  - Seung Wook Park
+  publisher: United States Patent and Trademark Office
+  date: '2022-01-01'
+  link: https://patents.google.com/patent/US12561846/en
+  status: Granted (US); Filed (KR)
+  tags:
+  - patents
+  plugin: sources.py
+  file: sources.yaml
+- id: patent:KR102023008473
+  title: Generation of Pseudo Label using Information from Multi-Source Domains in
+    Black-Box Domain Adaptation
+  authors: []
+  publisher: Korean Intellectual Property Office
+  date: '2023-01-01'
+  link: https://www.google.com/patents/KR102023008473
+  status: Filed
+  tags:
+  - patents
+  plugin: sources.py
+  file: sources.yaml
+- id: patent:KR1020250190895
+  title: Method and Apparatus for Motion Recognition using Single-Channel Biosignal
+  authors: []
+  publisher: Korean Intellectual Property Office
+  date: '2025-01-01'
+  link: https://www.google.com/patents/KR1020250190895
+  status: Filed
+  tags:
+  - patents
+  plugin: sources.py
+  file: sources.yaml
+- title: Road Object Detection in Data-limited Environments using Vision Foundation
+    Models
+  authors:
+  - Seoyeon Kim
+  - Chaehwa Yoo
+  publisher: Summer Annual Conference of IEIE
+  date: '2026-06-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml
+- title: Domain Adaptation of a Sleep Staging Network through Structured Knowledge
+    Transfer
+  authors:
+  - Chaehwa Yoo
+  publisher: Broadcast and Media Magazine
+  date: '2023-07-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml
+- title: Multi-Source Black-Box Domain Adaptation in Unsupervised Learning
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Summer Annual Conference of the Korean Institute of Broadcast and Media
+    Engineers (KIBME)
+  date: '2023-06-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml
+- title: Co-knowledge Transfer Learning for Multi-source Black-box Domain Adaptation
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: 35th Workshop on Image Processing and Image Understanding (IPIU)
+  date: '2023-02-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml
+- title: Multi-source Black-box Domain Adaptation through Entropy-based Pseudo Label
+    Generation
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: 34th IPIU
+  date: '2022-02-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml
+- title: Source-free Unsupervised Domain Adaptation for COVID-19 Lesion Segmentation
+    Network
+  authors:
+  - Chaehwa Yoo
+  - Sumin Kim
+  - Yeonui Kim
+  - Taehee Park
+  - Jiyoung Lee
+  - Je-Won Kang
+  publisher: Autumn Annual Conference of IEIE
+  date: '2021-11-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml
+- title: Training Compression Artifacts Reduction Network with Domain Adaptation
+  authors:
+  - Yu-Jin Ham
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Korean Signal Processing Conference (KSPC)
+  date: '2021-09-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml
+- title: Sleep Signal De-noising Network on Mobile Environments
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Korean Signal Processing Conference (KSPC)
+  date: '2020-08-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml
+- title: Training Method for Noise-Robust Sleep Staging Network
+  authors:
+  - Chaehwa Yoo
+  - Je-Won Kang
+  publisher: Summer Annual Conference of IEIE
+  date: '2020-08-01'
+  tags:
+  - domestic paper
+  plugin: sources.py
+  file: sources.yaml

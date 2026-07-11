@@ -7,42 +7,37 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-The Computational Biology and Cancer Regulatory Genomics (**CBCRG**) Lab is located at the Computational Biology Department at the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/), Masdar City, Abu Dhabi, UAE. We are based in the first floor of Building 1B at MBZUAI campus.
-
-
+The Machine Intelligence and Vision Labaratory (MIVLab) is located at the [School of Electrical Engineering](https://koamma.cbnu.ac.kr),  [Chungbuk National University](https://cbnu.ac.kr), Cheongju, Korea. 
 
 {%
   include button.html
   type="email"
-  text="chaehway@chungbuk.ac.kr"
-  link="chaehway@chungbuk.ac.kr"
+  text="mivlab.cbnu@gmail.com"
+  link="mivlab.cbnu@gmail.com"
 %}
+
+Telephone
++82 43 261 2421 
 
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://maps.app.goo.gl/PE5hPbBgajcbfkfn6"
+  link="https://maps.app.goo.gl/jS66jkLmrw7B5CYn8"
 %}
+Rm 473, Bldg E8-3, Chungdae-ro 1, Seowon-gu, Cheongju, Korea 
 
 {% include section.html %}
 
 # {% include icon.html icon="fa-solid fa-handshake-angle" %}Join the Team
 
-#### If you're interested to join the team, please check the open positions and other opportunities [here](/join).
-
 ### Graduate Students: MS and PhD
 
-MBZUAI offers fully-funded MS and PhD programs across departments including the Computational Biology. You can find more details and application deadline about the MBZUAI graduate programs [here](https://mbzuai.ac.ae/study/admission-process). If you would like to join our lab, you need to have been accepted by a MBZUAI program first.
+MIVLab is looking for self-motivated Master and Ph.D students in Artificial Intelligence, Deep Learning, and Signal/Image Processing. If you would like to join our lab, please contact Prof. Yoo to set up a time to discuss your interest and potential fit.
 
-Prospective PhD students who are at the last year of their masters can apply for the [Graduate Research Fellowship Program](https://mbzuai.ac.ae/graduate-research-fellowship/). This program offers master’s students and pre-doctoral researchers the opportunity to engage in short-term research projects with MBZUAI faculty including the computational biology.
+#### Undergraduate Students
 
-If you are already a Masters or a PhD student in one of the above programs and are interested in joining or rotating in our lab, please [contact Aziz]({{ site.baseurl }}/contact) to set up a time to discuss your interest and potential fit.
-
-### Undergraduate Students
-
-If you are an undergraduate student and would like to spend a summer doing research at MBZUAI, visit the MBZUAI Undergraduate Research Internship Program (UGRIP) [website](https://mbzuai.ac.ae/ugrip/).
-
+If you are an undergraduate student and would like to do research at MIVLab, visit the MBZUAI Undergraduate Research Internship Program (UGRIP).
 
 {% capture col1 %}
 
