@@ -15,7 +15,7 @@
     </div>
   -->
 
-  <div>
+  <div class="button-row">
     {% for link in site.links %}
       {% assign key = link[0] %}
       {% assign value = link[1] %}
@@ -25,7 +25,6 @@
 
   <div>
     &copy; {{ site.time | date: "%Y" }}
-
     {{ site.title }}  &nbsp; 
   </div>
 

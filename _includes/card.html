@@ -30,14 +30,22 @@
     </a>
     {% endif %}
 
-    {% if include.subtitle %}
-      <span class="card-subtitle">{{ include.subtitle }}</span>
-    {% endif %}
-
     {% if include.description %}
       <p>
         {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
+    {% endif %}
+
+    {% if include.subtitle %}
+      {% assign subtitle_items = include.subtitle | split: "\n" %}
+      <ul class="card-subtitle-list" style="margin: 5px 0; padding-left: 20px;">
+        {% for item in subtitle_items %}
+          {% assign trimmed = item | strip %}
+          {% if trimmed != "" and trimmed != nil %}
+            <li>{{ trimmed }}</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     {% endif %}
 
     {% if include.tags or include.repo %}

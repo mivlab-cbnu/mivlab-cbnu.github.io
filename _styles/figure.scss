@@ -20,6 +20,12 @@
   box-shadow: var(--shadow);
 }
 
+.figure.no-shadow .figure-image img {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
 .figure-caption {
   font-style: italic;
   text-align: center;
