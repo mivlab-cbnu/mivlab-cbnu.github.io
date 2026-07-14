@@ -42,15 +42,15 @@
   tags:
   - International conference
 
-# - title: Relevance Regularization of Convolutional Neural Network for Interpretable Classification
-#   authors:
-#   - Chaehwa Yoo
-#   - Nayoung Kim
-#   - Je-Won Kang
-#   publisher: IEEE Computer Vision and Pattern Recognition Workshop (CVPRW)
-#   date: '2019-06'
-#   tags:
-#   - International conference
+- title: Relevance Regularization of Convolutional Neural Network for Interpretable Classification
+  authors:
+  - Chaehwa Yoo
+  - Nayoung Kim
+  - Je-Won Kang
+  publisher: IEEE Computer Vision and Pattern Recognition Workshop (CVPRW)
+  date: '2019-06'
+  tags:
+  - International conference
 
 - title: Training Compression Artifacts Reduction Network with Domain Adaptation
   authors:

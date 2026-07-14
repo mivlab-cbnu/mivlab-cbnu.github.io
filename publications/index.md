@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-<!-- We publish high-impact peer-reviewed research papers in leading journals across diverse topics from genomics, epigenomic, machine learning, cancer genomics, and science policy. -->
+{% include button.html icon="fa-brands fa-google" text="More on Google Scholar" link="https://scholar.google.com/citations?hl=en&user=BEhSvN4AAAAJ&view_op=list_works&authuser=1&sortby=pubdate" %}
+
+
 
 <!-- ## All publications -->
 
