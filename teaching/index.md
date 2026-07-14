@@ -15,7 +15,7 @@ nav:
 #### Fall
 - Numerical Analysis (수치해석), CBNU
 - Machine Learning (머신러닝), CBNU
-- Pattern Recognition (패턴인식, graduate), CBNU
+- Neural Networks (신경회로망특론, graduate), CBNU
 {% endcapture %}
 
 {% capture col1 %}
